@@ -9,9 +9,7 @@ git clone https://github.com/qiumiao30/SLMR.git && cd SLMR
 ```
 
 ## 1. get data
-```bash
 **SWaT: ** [SWaT Dataset Download](https://itrust.sutd.edu.sg/itrust-labs_datasets/)
-```
 
 ## 2. Install Dependencies(Recomend Virtualenv)
 
