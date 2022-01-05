@@ -61,14 +61,9 @@ pass
 
 # Acknowledge
 
-**DAGMM:** [code](https://github.com/tnakae/DAGMM)
-
-**LSTM-VAE:** [code](https://github.com/Danyleb/Variational-Lstm-Autoencoder)
-
-**MAD-GAN:** [code](https://github.com/LiDan456/MAD-GANs)
-
-**MTAD-GAT:** [code](https://github.com/mangushev/mtad-gat)
-
-**USAD:** [code](https://github.com/finloop/usad-torchlightning)
-
-**OmniAnomaly:** [code](https://github.com/NetManAIOps/OmniAnomaly)
+- **DAGMM:** [code](https://github.com/tnakae/DAGMM)
+- **LSTM-VAE:** [code](https://github.com/Danyleb/Variational-Lstm-Autoencoder)
+- **MAD-GAN:** [code](https://github.com/LiDan456/MAD-GANs)
+- **MTAD-GAT:** [code](https://github.com/mangushev/mtad-gat)
+- **USAD:** [code](https://github.com/finloop/usad-torchlightning)
+- **OmniAnomaly:** [code](https://github.com/NetManAIOps/OmniAnomaly)
