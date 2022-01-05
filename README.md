@@ -60,7 +60,7 @@ pass
 pass
 
 # Acknowledge
-
+1. Other Advanced Methods
 - **DAGMM:** [code](https://github.com/tnakae/DAGMM)
 - **LSTM-VAE:** [code](https://github.com/Danyleb/Variational-Lstm-Autoencoder)
 - **MAD-GAN:** [code](https://github.com/LiDan456/MAD-GANs)
