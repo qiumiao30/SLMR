@@ -49,7 +49,7 @@ python data_preprocess.py --dataset swat
 ## 5. run
 
 ```python
-python main.py
+python main.py --Params "value" --Parmas "value" ......
 ```
 
 ## 6. visualization 
