@@ -1,5 +1,5 @@
 # SLMR
-**Upload the code after the paper is accepted**
+[**paper**](https://arxiv.org/abs/2208.09240)
 # Introduction
 ![model](https://github.com/qiumiao30/SLMR/blob/master/image/model.png)
 # Geting Started
