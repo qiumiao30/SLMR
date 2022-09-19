@@ -1,7 +1,7 @@
 # SLMR
 **Upload the code after the paper is accepted**
 # Introduction
-  pass
+  (https://github.com/qiumiao30/SLMR/blob/master/image/model.png)
 # Geting Started
 To clone this repo:
 ```bash
