@@ -53,11 +53,11 @@ python train.py --Params "value" --Parmas "value" ......
 ```
 
 ## 6. visualization 
-![vis](![model](https://github.com/qiumiao30/SLMR/blob/master/image/vis.png))
+![model](https://github.com/qiumiao30/SLMR/blob/master/image/vis.png)
 
 # Model Overview
 
-![model](![model](https://github.com/qiumiao30/SLMR/blob/master/image/model.png))
+![model](https://github.com/qiumiao30/SLMR/blob/master/image/model.png)
 
 # Acknowledge
 1. Other Advanced Methods
