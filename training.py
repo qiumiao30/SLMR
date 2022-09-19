@@ -7,9 +7,9 @@ from torch.utils.tensorboard import SummaryWriter
 from utils import zero_one
 
 class Trainer:
-    """Trainer class for MTAD-GAT model.
+    """Trainer class for model.
 
-    :param model: MTAD-GAT model
+    :param model: model
     :param optimizer: Optimizer used to minimize the loss function
     :param window_size: Length of the input sequence
     :param n_features: Number of input features
