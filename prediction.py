@@ -6,9 +6,9 @@ from tqdm import tqdm
 
 
 class Predictor:
-    """MTAD-GAT predictor class.
+    """predictor class.
 
-    :param model: MTAD-GAT model (pre-trained) used to forecast and reconstruct
+    :param model: model (pre-trained) used to forecast and reconstruct
     :param window_size: Length of the input sequence
     :param n_features: Number of input features
     :param pred_args: params for thresholding and predicting anomalies
