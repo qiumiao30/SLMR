@@ -1,7 +1,7 @@
 # SLMR
 [**paper**](https://arxiv.org/abs/2208.09240)
 # Introduction
-![model](https://github.com/qiumiao30/SLMR/blob/master/image/model.png)
+pass
 # Geting Started
 To clone this repo:
 ```bash
@@ -53,11 +53,11 @@ python train.py --Params "value" --Parmas "value" ......
 ```
 
 ## 6. visualization 
-pass
+![vis](![model](https://github.com/qiumiao30/SLMR/blob/master/image/vis.png))
 
 # Model Overview
 
-pass
+![model](![model](https://github.com/qiumiao30/SLMR/blob/master/image/model.png))
 
 # Acknowledge
 1. Other Advanced Methods
