@@ -4,7 +4,6 @@ import torch.nn as nn
 
 from args import get_parser
 from utils import *
-from mtad_gat import MTAD_GAT, TransGAT
 from prediction import Predictor
 from training import Trainer
 #from m_cnn import Res2NetBottleneck
@@ -83,29 +82,6 @@ if __name__ == "__main__":
     train_loader, val_loader, test_loader = create_data_loaders(
         train_dataset, batch_size, val_split, shuffle_dataset, test_dataset=test_dataset
     )
-
-#    model = MTAD_GAT(
-#        n_features,
-#        window_size,
-#        out_dim,
-#        kernel_size=args.kernel_size,
-#        use_gatv2=args.use_gatv2,
-#        feat_gat_embed_dim=args.feat_gat_embed_dim,
-#        time_gat_embed_dim=args.time_gat_embed_dim,
-#        gru_n_layers=args.gru_n_layers,
-#        gru_hid_dim=args.gru_hid_dim,
-#        forecast_n_layers=args.fc_n_layers,
-#        forecast_hid_dim=args.fc_hid_dim,
-#        recon_n_layers=args.recon_n_layers,
-#        recon_hid_dim=args.recon_hid_dim,
-#        dropout=args.dropout,
-#        alpha=args.alpha
-#    )
-##    #
-#    model = Res2NetBottleneck(inplanes=n_features, planes=n_features * 3, downsample=None, window_size=window_size, n_features=n_features, stride=1, scales=51, groups=6, se=False, norm_layer=None)
-
-
-#    model = Res2NetBottleneck(inplanes=n_features, planes=n_features * 3, window=window_size, downsample=True, stride=1, scales=3, groups=6, se=True, norm_layer=None)
 
     model = Res2NetBottleneck(
         inplanes=n_features,
