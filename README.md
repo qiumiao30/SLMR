@@ -1,7 +1,9 @@
 # SLMR
 [**paper**](https://arxiv.org/abs/2208.09240)
 # Introduction
-pass
+
+Anomaly detection of multivariate time series is meaningful for system behavior monitoring. This paper proposes an anomaly detection method based on unsupervised Short- and Long-term Mask Representation learning (SLMR). The main idea is to extract short-term local dependency patterns and long-term global trend patterns of the multivariate time series by using multi-scale residual dilated convolution and Gated Recurrent Unit(GRU) respectively. Furthermore, our approach can comprehend temporal contexts and feature correlations by combining spatial-temporal masked self-supervised representation learning and sequence split. It considers the importance of features is different, and we introduce the attention mechanism to adjust the contribution of each feature. Finally, a forecasting-based model and a reconstruction-based model are integrated to focus on single timestamp prediction and latent representation of time series. Experiments show that the performance of our method outperforms other state-of-the-art models on three real-world datasets. Further analysis shows that our method is good at interpretability.
+
 # Geting Started
 To clone this repo:
 ```bash
