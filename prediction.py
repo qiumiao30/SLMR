@@ -89,7 +89,7 @@ class Predictor:
             anomaly_scores[:, i] = a_score
             df[f"A_Score_{i}"] = a_score
 
-        anomaly_scores = np.mean(anomaly_scores, 1) # 均值
+        anomaly_scores = np.max(anomaly_scores, 1) # mean or max
         df['A_Score_Global'] = anomaly_scores
 
         return df
