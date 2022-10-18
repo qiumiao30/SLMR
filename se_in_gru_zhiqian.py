@@ -17,31 +17,31 @@ def pooling():
 #     return nn.Conv1d(in_planes, out_planes, kernel_size=3, dilation=2, stride=stride, padding=2, groups=groups, bias=False)
 
 
-class Res2NetBottleneck(nn.Module):
-    def __init__(self, inplanes, bottleneck_planes, outplanes):
-        super(Res2NetBottleneck, self).__init__()
+# class Res2NetBottleneck(nn.Module):
+#     def __init__(self, inplanes, bottleneck_planes, outplanes):
+#         super(Res2NetBottleneck, self).__init__()
 
-        self.conv1 = conv1x1(inplanes, bottleneck_planes)
-        self.conv2 = conv3x3(bottleneck_planes, bottleneck_planes)
-        self.conv3 = conv5x5(bottleneck_planes, outplanes)
+#         self.conv1 = conv1x1(inplanes, bottleneck_planes)
+#         self.conv2 = conv3x3(bottleneck_planes, bottleneck_planes)
+#         self.conv3 = conv5x5(bottleneck_planes, outplanes)
 
-        self.deconv1 = deconv5x5(outplanes, bottleneck_planes)
-        self.deconv2 = deconv3x3(bottleneck_planes, bottleneck_planes)
-        self.deconv3 = deconv1x1(bottleneck_planes, inplanes)
+#         self.deconv1 = deconv5x5(outplanes, bottleneck_planes)
+#         self.deconv2 = deconv3x3(bottleneck_planes, bottleneck_planes)
+#         self.deconv3 = deconv1x1(bottleneck_planes, inplanes)
 
-    def forward(self, x):
+#     def forward(self, x):
 
-        x = x.permute(0, 2, 1)
+#         x = x.permute(0, 2, 1)
 
-        out = self.conv1(x)
-        out = self.conv2(out)
-        out = self.conv3(out)
+#         out = self.conv1(x)
+#         out = self.conv2(out)
+#         out = self.conv3(out)
 
-        out = self.deconv1(out)
-        out = self.deconv2(out)
-        out = self.deconv3(out)
+#         out = self.deconv1(out)
+#         out = self.deconv2(out)
+#         out = self.deconv3(out)
 
-        return out.permute(0,2,1)
+#         return out.permute(0,2,1)
 
 #
 # def main():
