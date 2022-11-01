@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## 3. dataset preprocess
 
 ```python
-python data_preprocess.py --dataset $dataset_name$
+python preprocess.py --dataset $dataset_name$
 ```
 `$dataset$` is one of SWAT, MSL, SMAP et al.
 
