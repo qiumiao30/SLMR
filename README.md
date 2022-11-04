@@ -40,7 +40,7 @@ python preprocess.py --dataset $dataset_name$
 for example:
 
 ```python
-python data_preprocess.py --dataset swat
+python preprocess.py --dataset swat
 ```
 
 ## 4. Params
