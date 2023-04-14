@@ -74,7 +74,8 @@ python train.py --Params "value" --Parmas "value" ......
 
 # cite
 
-```@InProceedings{10.1007/978-981-99-1645-0_42,
+```
+@InProceedings{10.1007/978-981-99-1645-0_42,
 author="Miao, Qiucheng
 and Xu, Chuanfu
 and Zhan, Jun
