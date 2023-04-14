@@ -73,12 +73,20 @@ python train.py --Params "value" --Parmas "value" ......
 - **OmniAnomaly:** [code](https://github.com/NetManAIOps/OmniAnomaly)
 
 # cite
-``` @InProceedings{Miao2022,
-  author       = {Miao, Qiucheng and Xu, Chuanfu and Zhan, jun and Zhu, Dong and Wu, Chengkun},
-  booktitle    = {Neural Information Processing: 29th International Conference, ICONIP 2022, IIT Indore, India, November 22-26, 2022, Proceedings, Part I 28},
-  title        = {An Unsupervised Short- and Long-Term Mask Representation for Multivariate Time Series Anomaly Detection},
-  year         = {2022},
-  organization = {Springer},
-  pages        = {14--26},
+
+```@InProceedings{10.1007/978-981-99-1645-0_42,
+author="Miao, Qiucheng
+and Xu, Chuanfu
+and Zhan, Jun
+and Zhu, Dong
+and Wu, Chengkun",
+title="An Unsupervised Short- and Long-Term Mask Representation for Multivariate Time Series Anomaly Detection",
+booktitle="Neural Information Processing",
+year="2023",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="504--516",
+isbn="978-981-99-1645-0"
 }
+
 
