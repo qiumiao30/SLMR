@@ -161,7 +161,7 @@ class Predictor:
         p_eval = pot_eval(train_anomaly_scores, test_anomaly_scores, true_anomalies,
                           q=self.q, level=self.level, dynamic=self.dynamic_pot)
         if true_anomalies is not None:
-            bf_eval = bf_search(test_anomaly_scores, true_anomalies, start=0, end=30, step_num=3000, verbose=False)
+            bf_eval = bf_search(test_anomaly_scores, true_anomalies, start=0, end=30, step_num=300, verbose=False)
         else:
             bf_eval = {}
 
