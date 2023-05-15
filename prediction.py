@@ -84,12 +84,12 @@ class Predictor:
                 q75, q25 = np.percentile(a_score, [75, 25])
                 iqr = q75 - q25
                 median = np.median(a_score)
-                a_score = (a_score - median) / (1+iqr)
+                a_score = (a_score - median) / (0.1+iqr)
 
             anomaly_scores[:, i] = a_score
             df[f"A_Score_{i}"] = a_score
 
-        anomaly_scores = np.max(anomaly_scores, 1) # mean or max
+        anomaly_scores = np.mean(anomaly_scores, 1) # mean or max
         df['A_Score_Global'] = anomaly_scores
 
         return df
@@ -161,7 +161,7 @@ class Predictor:
         p_eval = pot_eval(train_anomaly_scores, test_anomaly_scores, true_anomalies,
                           q=self.q, level=self.level, dynamic=self.dynamic_pot)
         if true_anomalies is not None:
-            bf_eval = bf_search(test_anomaly_scores, true_anomalies, start=0, end=30, step_num=300, verbose=False)
+            bf_eval = bf_search(test_anomaly_scores, true_anomalies, start=0, end=3, step_num=1000, verbose=False)
         else:
             bf_eval = {}
 
